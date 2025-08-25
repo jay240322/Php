@@ -13,9 +13,7 @@ This repository may include (or plan to include):
 - 🌐 **Web Development** – Programs for handling forms, server-side scripting, and sessions.
 - 🗄️ **Database Interaction** – Examples of connecting to and interacting with a database like MySQL.
 - 🧠 **Problem Solving** – Small logic-based challenges and interview practice.
-- 🗂️ **Mini Projects** – Simple web applications or tools built with PHP.
 - 💻 **OOP (Object-Oriented Programming)** – Classes, objects, inheritance, and other OOP concepts.
-- 📦 **Composer & Frameworks** – Projects that use Composer and popular PHP frameworks like Laravel or Symfony.
 
 ---
 
@@ -39,20 +37,20 @@ To run these PHP files, you'll need a local web server environment.
 
 4. **Run any PHP file**
    > Place the repository folder inside your local server's document root (in htdocs) 
-   > Access the file threw ```bash http://localhost/Php/filename.php```
+   > Access the file threw ``` http://localhost/Php/filename.php```
 
 ---
 
 ## 📚 Topics Covered (examples)
 
--Variables, Data Types
--Functions & Classes
--Conditional Statements & Loops
--Superglobals ($_GET, $_POST)
--Database Connectivity (mysqli or PDO)
--File Handling
--Cookies and Sessions
--Exception Handling
+- Variables, Data Types
+- Functions & Classes
+- Conditional Statements & Loops
+- Superglobals ($_GET, $_POST)
+- Database Connectivity (mysqli or PDO)
+- File Handling
+- Cookies and Sessions
+- Exception Handling
 
 ---
 
