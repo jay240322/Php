@@ -7,7 +7,7 @@
 	  <body>
 	     <form method="POST">
 		  enter number:
-          <input type="number"name="num">
+           <input type="number"name="num">
            <input type="submit"value="click"name="submit">
 		  </form>
 		</body>
