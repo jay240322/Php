@@ -24,3 +24,4 @@ if($_POST){
         echo"$snum is greater than $fnum";
     }
 }
+?>

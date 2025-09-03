@@ -26,4 +26,4 @@ if($_POST){
 		echo"$num is zero";
 	}
 }
-		
+?>
