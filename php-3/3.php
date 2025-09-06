@@ -1,3 +1,4 @@
+<!-- a form which containg four input fields(id,name,price,quantity) and submit button when user click on button then it will store that input data in the database table -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,13 +31,14 @@
     $proname = $_POST['name'];
     $proprice = $_POST['price'];
     $proqty = $_POST['quantity'];
- }
- $sql = "INSERT INTO `product` (`pro_id`, `pro_name`, `PRO_PRICE`, `QTY`) VALUES ('$proid', '$proname', '$proprice', '$proqty')";
- if($con->query($sql) == true){
-    echo"<script>alert("newdata inserted")</script>";
- }
- else{
-    echo"error";
+
+    $sql = "INSERT INTO `product` (`pro_id`, `pro_name`, `PRO_PRICE`, `QTY`) VALUES ('$proid', '$proname', '$proprice', '$proqty')";
+    if($con->query($sql) == true){
+        echo "<script>alert('newdata inserted');</script>";
+    }
+    else{
+        echo "error";
+    }
  }
  mysqli_close($con);
 ?>
