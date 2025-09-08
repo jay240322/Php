@@ -7,12 +7,17 @@
 </head>
 <body>
     <form method="POST">
-        enter the raiuds of the circle:
-        <input type="number"name="number">
-        <input type="submit"name="click">
+         enter string:
+         <input type="text"name="text"><br>
+         <input type="submit"name="submit">
     </form>
 </body>
 </html>
 <?php
+if($_POST){
+$str = $_POST['text'];
+$revetr = strrev($str);
 
+if($)
+}
 ?>
